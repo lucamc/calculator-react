@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Button from './components/Button'
 import Screen from './components/Screen'
+import ButtonClear from './components/ButtonClear'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,11 +35,16 @@ function App() {
           <Button>3</Button>
           <Button>*</Button>
         </div>
+
         <div className='file'>
           <Button>=</Button>
           <Button>0</Button>
           <Button>.</Button>
           <Button>/</Button>
+        </div>
+
+        <div className='file'>
+          <ButtonClear>CLEAR</ButtonClear>
         </div>
 
       </div>
