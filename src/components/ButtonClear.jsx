@@ -3,7 +3,9 @@ import '../styles/ButtonClear.css'
 
 
 const ButtonClear = (props) => (
-    <button className='button-clear'>
+    <button 
+        className='button-clear'
+        onClick={props.manejarClear}>
         {props.children}
     </button>
 );
