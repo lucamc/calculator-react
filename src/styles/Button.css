@@ -1,0 +1,36 @@
+
+
+.button-container {
+  height: 74px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  padding: 8px;
+  font-size: 2.0rem;
+  border-radius: 6px;
+  background-color: rgb(53, 52, 52);
+  border: 1px solid grey;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  transition: 150ms;
+}
+
+.button-container:hover {
+  background-color:  rgba(242, 182, 71, 0.473);
+  border: 1px solid rgba(242, 182, 71, 0.473);
+}
+
+
+.operator {
+  background-color: rgba(244, 180, 60, 0.884);
+  color: black;
+  font-weight: bold;
+}
+
+.operator:hover {
+  background-color: #222;
+  color: white;
+}
